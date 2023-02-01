@@ -20,7 +20,6 @@ public class EntryServiceImpl implements EntryService {
     public List<EntryDTO> getAllEntryByCategory(String category) throws EntryException {
 
         AllEntryDTO allEntryDTO = restTemplate.getForObject(BASE_URL + "/entries", AllEntryDTO.class);
-        System.out.println(allEntryDTO);
         List<EntryDTO> entries = new ArrayList<>();
 
         if (allEntryDTO.getEntries().isEmpty()) throw new EntryException("No Entry found to load!");
