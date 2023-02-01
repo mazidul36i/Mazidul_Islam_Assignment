@@ -1,0 +1,37 @@
+3) Question: what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+
+Solution:
+--------------
+
+There are many things that should be considered while creating/consuming an API. Some of  them are cam be explained as follows-
+
+1. End points are clear and understandable easily.
+
+2. Request Methods are written exactly and working.
+
+3. Handled any tipe of internal or external exception and returns user understandle message.
+
+4. Validation applied for inputs.
+
+
+
+
+
+
+
+Theoretical Challange
+------------------------------
+Solution:
+
+My approach to takle the problem statement-
+
+1. I will read the input bia any of the input tha avaiable in java (eg. Scanner)
+
+2. Take all the input in key value pair with key as String and value as String
+
+3. Now I will check if the value is an Integer or not. If the value is an Integer then I will print this and if it is formula then calculate the value according to the formula and print.
+
+4. To calculate the value having formula I will check for ArethmaticException as there can be a formula something like (10/0) which will cause arethmatic exception. Also, I will check for NullPointerException and it will take care of any Null Pointers.
+
+5. I will write comment at every step of my code so that anyone can understand and break down my code to understand.
+
